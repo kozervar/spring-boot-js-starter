@@ -1,0 +1,38 @@
+{
+  "name": "starter",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "author": "",
+  "contributors": [
+	""
+  ],
+  "dependencies": {
+    "bower": "*",
+    "grunt-cli": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-html2js": "*",
+    "grunt-include-source": "*",
+    "grunt-jscs": "^1.8.0",
+    "grunt-karma": "*",
+    "grunt-mocha-test": "*",
+    "grunt-ng-annotate": "*",
+    "karma": "*",
+    "karma-coverage": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "load-grunt-tasks": "*"
+  }
+}

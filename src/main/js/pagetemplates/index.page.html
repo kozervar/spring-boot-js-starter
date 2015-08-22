@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample</title>
+    <meta http-equiv="X-Frame-Options" content="allow">
+    [[ appCSSFiles.forEach(function(item ){ ]]
+    <link rel="stylesheet" href="[[= item ]]">
+    [[ }); ]]
+</head>
+<body >
+
+<!-- Vendor JS files -->
+[[ vendorJSFiles.forEach(function(item ){ ]]
+<script type="text/javascript" src="[[= item ]]"></script>
+[[ }); ]]
+
+<!-- Application JS files -->
+[[ appJSFiles.forEach(function(item ){ ]]
+<script type="text/javascript" src="[[= item ]]"></script>
+[[ }); ]]
+
+<!-- Application JS template files -->
+[[ appTemplateFiles.forEach(function(item ){ ]]
+<script type="text/javascript" src="[[= item ]]"></script>
+[[ }); ]]
+</body>
+</html>
